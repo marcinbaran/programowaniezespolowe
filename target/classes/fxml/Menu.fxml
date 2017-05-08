@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minWidth="343.7451171875" prefHeight="60.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pl.programowanie.zespolowe.controller.MenuController">
+  <children>
+    <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="607.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="Akcja">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#logout" text="Wyloguj" />
+            <MenuItem mnemonicParsing="false" onAction="#exit" text="Zakończ" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <Label fx:id="loginAsLabel" layoutX="385.0" layoutY="24.0" prefHeight="25.0" prefWidth="215.0" text="Zalogowany jako: " />
+  </children>
+</AnchorPane>

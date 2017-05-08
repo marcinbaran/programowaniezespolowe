@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pl.programowanie.zespolowe.controller.UserFormController">
+  <children>
+    <Label alignment="CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" prefHeight="49.0" prefWidth="272.0" text="Nowy użytkownik">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+    <TextField fx:id="firstNameField" layoutX="62.0" layoutY="96.0" prefWidth="200.00009999999747" />
+    <TextField fx:id="lastNameField" layoutX="62.0" layoutY="137.0" prefWidth="200.0" />
+    <TextField fx:id="loginNameField" layoutX="62.0" layoutY="178.0" prefWidth="200.0" />
+    <Label layoutX="62.0" layoutY="80.0" prefWidth="201.0" text="Imię" />
+    <Label layoutX="62.0" layoutY="121.0" prefWidth="201.0" text="Nazwisko" />
+    <Label layoutX="62.0" layoutY="162.0" prefWidth="201.0" text="Login" />
+    <Label layoutX="62.0" layoutY="203.0" prefWidth="201.0" text="Hasło" />
+    <Button layoutX="110.0" layoutY="277.0" mnemonicParsing="false" onAction="#addUser" prefWidth="80.0" text="Dodaj" />
+    <PasswordField fx:id="passwordField" layoutX="62.0" layoutY="225.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
